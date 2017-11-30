@@ -8,5 +8,5 @@ Created on Tue Nov 28 17:30:02 2017
 import Skype4Py
 import sys
 
-skype = Skype4Py.Skyp()
+skype = Skype4Py.Skype()
 skype.Attach()
