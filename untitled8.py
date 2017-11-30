@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 filename = 'C:/Users/abhishek_mishra9/Desktop/DATA-ANALYSIS/orderdata_TEST1170124093145.csv'
 df=pandas.read_csv(filename, sep=',', delimiter=None)
-df.ORDER_DATE=pandas.to_datetime(df.ORDER_DATE)
+df.IRDER_DATE=pandas.to_datetime(df.ORDER_DATE)
 df.Delievery_Date=pandas.to_datetime(df.Delievery_Date)
 df.EstimatedDeliveryDateMax=pandas.to_datetime(df.EstimatedDeliveryDateMax)
 df.Delievery_Date=df.Delievery_Date-df.ORDER_DATE
